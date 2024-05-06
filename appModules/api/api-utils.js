@@ -8,7 +8,7 @@ async function getData(url) {
 }
 
 function getRandomGame(array) {
-    const randomIndex = Math.floor(Math.randoms() * array.length)
+    const randomIndex = Math.floor(Math.random() * array.length)
     return array[randomIndex];
 }
 
